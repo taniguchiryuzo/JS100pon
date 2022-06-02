@@ -83,12 +83,12 @@
 
     // 現在のスマートフォンのバッテリーの残量n % からこの充電器で 100 % まで充電するのに何分かかるかを求めるgetTimeUntilFull()関数を作成してください．
 
-    // function getTimeUntilFull(n) {
-    //     return 100 - n;
-    //  }
+    function getTimeUntilFull(n) {
+        return 100 - n;
+     }
 
-    // console.log(getTimeUntilFull(70)); // 30
-    // console.log(getTimeUntilFull(25)); // 75
+    console.log(getTimeUntilFull(70)); // 30
+    console.log(getTimeUntilFull(25)); // 75
 
 
 
@@ -100,18 +100,18 @@
 
 //     半角スペース区切りで苗字と名前が入力されるので，1 文字目を取り "."(半角ドット)で区切った文字列を出力するgetInitialFromName()関数を作成してください．
 
-    // function getInitialFromName(s) {
-    //       let array = s.split(" ");
-    //     if (array.length == 2) {
-    //         return array[0].substr(0, 1) + "." + array[1].substr(0, 1);
-    //     } else {
-    //         return "---";
-    //     }
-    // }
+    function getInitialFromName(s) {
+          let array = s.split(" ");
+        if (array.length == 2) {
+            return array[0].substr(0, 1) + "." + array[1].substr(0, 1);
+        } else {
+            return "---";
+        }
+    }
 
-    // console.log(getInitialFromName("Dio Brando")); // D.B
-    //     console.log(getInitialFromName("Pannacotta Fugo")); // P.F
-    //     console.log(getInitialFromName("Gyro Zeppeli")); // G.Z
+    console.log(getInitialFromName("Dio Brando")); // D.B
+        console.log(getInitialFromName("Pannacotta Fugo")); // P.F
+        console.log(getInitialFromName("Gyro Zeppeli")); // G.Z
 
 
 
